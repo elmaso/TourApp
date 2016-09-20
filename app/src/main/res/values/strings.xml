@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">TJ Tour App</string>
+
+    <string name="category_restaurant">Restaurants</string>
+
+    <string name="category_night_clubs">Night Clubs</string>
+
+    <string name="category_landmarks">LandMarks</string>
+
+    <string name="category_events">Events</string>
+    <string name="tour_demo_text">Tour Demo</string>
+    <string name="tour_description_demo_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</string>
+    <string name="tour_address_demo_text">Street name # 123 Fracc. Something In Tijuana</string>
+    <string name="tour_open_hours_demo_text">Every night from 8pm to 2 am</string>
+    <string name="rest_title_cesar">Cesar Palaces</string>
+    <string name="res_description_cesar">This is the place where the cesar salad was invented back in 1958, its right in the center of avenida Revolucion one of the most important turist atractions in the city</string>
+    <string name="rest_mision">Misión 21</string>
+    <string name="rest_description_mision">Mision 19 is located in an impressive gold LEED certified building. It is beautifully decorated and has private parking. You can reach the restaurant by elevator, just make sure you input the actual floor you are trying to reach before you enter the elevator as there are no buttons inside.</string>
+    <string name="rest_title_maiz">Maíz</string>
+    <string name="res_description_maiz">Delicious traditional mexican dishes made with wonderful, fresh ingredients. We had the queso fundido (melted cheese with chorizo), chunky guacamole (with onions and tomato), chilli relleno (very fresh) and awesome chicken mole enchiladas (served with delish rice and beans.)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
