@@ -27,13 +27,13 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
 
         if (position == 0) {
-            return new LandMarks();
+            return new Restaurants();
         } else if (position == 1) {
-            return new LandMarks();
+            return new NightClubs();
         } else if (position == 2) {
             return new LandMarks();
         } else {
-            return new LandMarks();
+            return new LocalEvents();
         }
     }
 

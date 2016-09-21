@@ -21,28 +21,39 @@ public class LandMarks extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState){
-        View rootView = inflater.inflate(R.layout.tour_list,container,false);
-
-
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.tour_list, container, false);
 
         //Create TourTj list of restaurants
-        final ArrayList<TourTJ> tourTJ = new ArrayList<TourTJ>();
-        tourTJ.add(new TourTJ(R.string.rest_mision,
-                R.string.rest_description_mision));
-        tourTJ.add(new TourTJ(R.string.rest_title_cesar,
-                R.string.res_description_cesar));
-        tourTJ.add(new TourTJ(R.string.rest_title_maiz,
-                R.string.res_description_maiz));
+        final ArrayList<TourTJ> tourTJs = new ArrayList<TourTJ>();
+        tourTJs.add(new TourTJ(R.string.lan_title_jaialai,
+                R.drawable.lan_jai_alai,
+                R.string.lan_description_jaialai,
+                R.string.lan_address_jaialai,
+                R.string.lan_open_hours_jaialai));
+        tourTJs.add(new TourTJ(R.string.lan_title_cecut,
+                R.drawable.lan_cecut,
+                R.string.lan_description_cecut,
+                R.string.lan_address_cecut,
+                R.string.lan_open_hours_cecut));
+        tourTJs.add(new TourTJ(R.string.lan_title_mona,
+                R.drawable.lan_mona,
+                R.string.lan_description_mona,
+                R.string.lan_address_mona,
+                R.string.lan_open_hours_mona));
+        tourTJs.add(new TourTJ(R.string.lan_title_burro,
+                R.drawable.lan_burro,
+                R.string.lan_description_burro,
+                R.string.lan_address_burro,
+                R.string.lan_open_hours_burro));
 
-        TourTJAdapter adapter = new TourTJAdapter(getActivity(), tourTJ);
+
+        TourTJAdapter adapter = new TourTJAdapter(getActivity(),tourTJs);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
 
-
         return rootView;
-
     }
 }

@@ -51,13 +51,13 @@ public class TourTJAdapter extends ArrayAdapter<TourTJ> {
         restDescriptionTextView.setText(currentPOI.getTourDescription());
 
         ImageView restImages = (ImageView) listItemView.findViewById(R.id.tour_image);
-        restImages.setImageResource(R.mipmap.ic_launcher);
+        restImages.setImageResource(currentPOI.getTourImage());
 
         TextView addressTextView = (TextView) listItemView.findViewById(R.id.tour_address_text);
-        addressTextView.setText("Demo Address");
+        addressTextView.setText(currentPOI.getTourAddress());
 
-        // TextView openTextView = (TextView) listItemView.findViewById(R.id.tour_open_hours_text);
-        // openTextView.setText("Demo Open Hours");
+        TextView openTextView = (TextView) listItemView.findViewById(R.id.tour_open_hours_text);
+        openTextView.setText(currentPOI.getTourOpenHours());
 
 
         return listItemView;
